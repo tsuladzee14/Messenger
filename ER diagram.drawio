@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="2LtX6hx0sL3kIj92-O-k">
+    <mxGraphModel dx="2626" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gID_omIgCCxzBeSNtmqF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;p&gt;Column&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Type&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Constraints&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Meaning&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;id&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;INT&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;PRIMARY KEY, AUTO_INCREMENT&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Unique number of the user&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;username&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;VARCHAR(30)&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;NOT NULL, UNIQUE&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Login name, for example luka&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;password&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;VARCHAR(100)&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;NOT NULL&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;User password&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;created_at&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;DATETIME&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;NOT NULL, DEFAULT CURRENT_TIMESTAMP&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;When the account was registered&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="220" width="630" x="-640" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gID_omIgCCxzBeSNtmqF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;users&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="-640" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gID_omIgCCxzBeSNtmqF-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;p&gt;Column&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Type&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Constraints&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Meaning&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;id&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;INT&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;PRIMARY KEY, AUTO_INCREMENT&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Unique number of the room&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;name&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;VARCHAR(30)&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;NOT NULL, UNIQUE&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Room name, always lowercase, for example games&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;created_at&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;DATETIME&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;NOT NULL, DEFAULT CURRENT_TIMESTAMP&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;When the room was created&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="260" width="630" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gID_omIgCCxzBeSNtmqF-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;rooms&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gID_omIgCCxzBeSNtmqF-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;messages&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="-370" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="gID_omIgCCxzBeSNtmqF-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;&lt;p&gt;Column&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Type&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Constraints&lt;/p&gt;&lt;/th&gt;&lt;th&gt;&lt;p&gt;Meaning&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;id&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;INT&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;PRIMARY KEY, AUTO_INCREMENT&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Unique number; a bigger id means a newer message&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;sender_id&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;INT&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;NOT NULL, FOREIGN KEY → users(id)&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;Who wrote it&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;room_id&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;INT&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;NULL, FOREIGN KEY → rooms(id)&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;The room, for a room message; NULL for a private message&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;receiver_id&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;INT&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;NULL, FOREIGN KEY → users(id)&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;The receiver, for a private message; NULL for a room message&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;text&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;VARCHAR(500)&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;NOT NULL&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;The message itself&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;sent_at&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;DATETIME&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;NOT NULL, DEFAULT CURRENT_TIMESTAMP&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;When it was sent&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="380" width="720" x="-370" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="gID_omIgCCxzBeSNtmqF-33" edge="1" parent="1" style="shape=link;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.383;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" target="gID_omIgCCxzBeSNtmqF-27" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="-340" y="333.86" as="sourcePoint" />
+            <mxPoint x="-250" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gID_omIgCCxzBeSNtmqF-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=45;fontSize=24;" value="1 : N" vertex="1">
+          <mxGeometry height="30" width="90" x="-254.39" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="gID_omIgCCxzBeSNtmqF-35" edge="1" parent="1" style="shape=link;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="250" y="570" as="sourcePoint" />
+            <mxPoint x="420" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gID_omIgCCxzBeSNtmqF-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-45;fontSize=24;" value="N : 1" vertex="1">
+          <mxGeometry height="30" width="80" x="270" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
